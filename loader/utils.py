@@ -1,3 +1,4 @@
+# Функция сохранения загруженных картинок
 def save_picture(picture):
     filename = picture.filename
     file_type = filename.split('.')[-1]
